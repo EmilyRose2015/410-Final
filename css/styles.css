@@ -67,10 +67,6 @@ nav ul li a:hover {
     background-color: rgb(24, 28, 28); 
 }
 
-#main p {
-    text-indent: 1.5em;
-}
-
 figure{
     padding-top: 10px;
     text-align: center;
@@ -92,6 +88,7 @@ aside p {
     font-size: 0.8em;
 	color: white;
 }
+
 h1 {
 	font-size: 1.4em;
 	text-align: center;
@@ -113,6 +110,21 @@ h4 {
 	text-align: center;
 	padding-top: 6em;
 	padding-bottom: 10em;
+}
+
+h5 {
+	text-align: right;
+	font-size: 0.9em;
+}
+
+h5 figure {
+	padding-top: 10px;
+    text-align: right;
+}
+
+table-caption {
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 footer {
@@ -181,4 +193,22 @@ textarea {
 	margin-top: 10px;
 	height: 100px;
 	width: 95%;
+}
+
+/* Table Styles */
+
+table {
+	width: 100%;
+}
+
+th, td {
+	border-bottom: 1px solid #ddd;
+}
+
+td {
+	text-align: left;
+}
+
+th {
+	text-align: center;
 }
