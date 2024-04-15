@@ -64,7 +64,29 @@ nav ul li a:hover {
     padding: 10px;
     float: left;
     color: white;    
-    background-color: rgb(24, 28, 28); 
+    background-color: rgb(24, 28, 28);
+}
+div#staff {
+	padding-top: 80px;
+	padding-bottom: 275px;
+	text-align: center;
+	font-style: italic;
+}
+
+div#reviews {
+	text-align: right;
+	font-size: 0.9em;
+	padding-bottom: 10px;
+}
+
+div#reviews img {
+	text-align: right;
+}
+
+div#reviews caption {
+	text-align: right;
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 figure{
@@ -96,31 +118,11 @@ h1 {
 }
 
 h2 {
-    font-size: 1.1em;
-    text-align: justify;
-}
-
-h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
 
-h4 {
-	text-align: center;
-	padding-top: 6em;
-	padding-bottom: 10em;
-}
-
-h5 {
-	text-align: right;
-	font-size: 0.9em;
-}
-
-h5 figure {
-	padding-top: 10px;
-    text-align: right;
-}
 
 table-caption {
 	font-size: 0.8em;
@@ -211,4 +213,10 @@ td {
 
 th {
 	text-align: center;
+}
+
+/* Video Styles */
+
+iframe {
+	padding-top: 15px;
 }
